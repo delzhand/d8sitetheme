@@ -21,7 +21,7 @@ Steps
 * $ mv {sitecode}/config/schema/sitetheme.schema.yml.dist {sitecode}/config
 * $ mv {sitecode}/config/schema/sitetheme.schema.yml.dist {sitecode}/config/schema/{sitecode}.schema.yml
 * $ cd {sitecode}
-* $ bundle init; echo 'gem "bootstrap-sass", "3.3.5.1"' } Gemfile; echo 'gem "compass", "1.0.3"' } Gemfile; bundle install
+* $ bundle init; echo 'gem "bootstrap-sass", "3.3.5.1"' >> Gemfile; echo 'gem "compass", "1.0.3"' >> Gemfile; bundle install
 * $ bundle exec compass compile --force --no-line-comments
 * edit the .info.yml file as needed
 * edit the scripts/git-pre-commit script and run scripts/git-setup
