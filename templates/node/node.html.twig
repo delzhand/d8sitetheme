@@ -86,7 +86,11 @@
   {% endif %}
 
   <div{{ content_attributes }}>
-    {{ content }}
+    {{ content|without('field_sections')}}
   </div>
 
 </article>
+
+<div class="sections">
+  {{ content.field_sections }}
+</div>

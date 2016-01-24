@@ -25,3 +25,7 @@ Steps
 * $ bundle exec compass compile --force --no-line-comments
 * edit the .info.yml file as needed
 * edit the scripts/git-pre-commit script and run scripts/git-setup
+
+Notes
+-----
+See https://www.drupal.org/node/2598914 for notes about avoiding constant cache rebuilds
