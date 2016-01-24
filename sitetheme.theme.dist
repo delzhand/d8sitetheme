@@ -7,7 +7,7 @@
  */
 
 function sitetheme_preprocess_node(&$variables) {
-  if ($variables['#view_mode'] == 'full') {
+  if ($variables['view_mode'] == 'full') {
     $variables['attributes']['class'][] = 'container';
   }
 }
